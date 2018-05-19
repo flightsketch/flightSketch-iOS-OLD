@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A37DB820AFC06600E21CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A37DB720AFC06600E21CAB /* AppDelegate.swift */; };
+		D2A37DBA20AFC06600E21CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A37DB920AFC06600E21CAB /* ViewController.swift */; };
+		D2A37DBD20AFC06600E21CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A37DBB20AFC06600E21CAB /* Main.storyboard */; };
+		D2A37DBF20AFC06A00E21CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A37DBE20AFC06A00E21CAB /* Assets.xcassets */; };
+		D2A37DC220AFC06A00E21CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A37DC020AFC06A00E21CAB /* LaunchScreen.storyboard */; };
+		D2A37DCD20AFC06A00E21CAB /* FlightSketchMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A37DCC20AFC06A00E21CAB /* FlightSketchMobileTests.swift */; };
+		D2A37DD820AFC06B00E21CAB /* FlightSketchMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A37DD720AFC06B00E21CAB /* FlightSketchMobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A37DC920AFC06A00E21CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A37DAC20AFC06500E21CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A37DB320AFC06500E21CAB;
+			remoteInfo = FlightSketchMobile;
+		};
+		D2A37DD420AFC06B00E21CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A37DAC20AFC06500E21CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A37DB320AFC06500E21CAB;
+			remoteInfo = FlightSketchMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2A37DB420AFC06500E21CAB /* FlightSketchMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSketchMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A37DB720AFC06600E21CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A37DB920AFC06600E21CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2A37DBC20AFC06600E21CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A37DBE20AFC06A00E21CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A37DC120AFC06A00E21CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A37DC320AFC06A00E21CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A37DC820AFC06A00E21CAB /* FlightSketchMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSketchMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A37DCC20AFC06A00E21CAB /* FlightSketchMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSketchMobileTests.swift; sourceTree = "<group>"; };
+		D2A37DCE20AFC06B00E21CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A37DD320AFC06B00E21CAB /* FlightSketchMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSketchMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A37DD720AFC06B00E21CAB /* FlightSketchMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSketchMobileUITests.swift; sourceTree = "<group>"; };
+		D2A37DD920AFC06B00E21CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A37DB120AFC06500E21CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DC520AFC06A00E21CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DD020AFC06B00E21CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A37DAB20AFC06500E21CAB = {
+			isa = PBXGroup;
+			children = (
+				D2A37DB620AFC06500E21CAB /* FlightSketchMobile */,
+				D2A37DCB20AFC06A00E21CAB /* FlightSketchMobileTests */,
+				D2A37DD620AFC06B00E21CAB /* FlightSketchMobileUITests */,
+				D2A37DB520AFC06500E21CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A37DB520AFC06500E21CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A37DB420AFC06500E21CAB /* FlightSketchMobile.app */,
+				D2A37DC820AFC06A00E21CAB /* FlightSketchMobileTests.xctest */,
+				D2A37DD320AFC06B00E21CAB /* FlightSketchMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A37DB620AFC06500E21CAB /* FlightSketchMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D2A37DB720AFC06600E21CAB /* AppDelegate.swift */,
+				D2A37DB920AFC06600E21CAB /* ViewController.swift */,
+				D2A37DBB20AFC06600E21CAB /* Main.storyboard */,
+				D2A37DBE20AFC06A00E21CAB /* Assets.xcassets */,
+				D2A37DC020AFC06A00E21CAB /* LaunchScreen.storyboard */,
+				D2A37DC320AFC06A00E21CAB /* Info.plist */,
+			);
+			path = FlightSketchMobile;
+			sourceTree = "<group>";
+		};
+		D2A37DCB20AFC06A00E21CAB /* FlightSketchMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A37DCC20AFC06A00E21CAB /* FlightSketchMobileTests.swift */,
+				D2A37DCE20AFC06B00E21CAB /* Info.plist */,
+			);
+			path = FlightSketchMobileTests;
+			sourceTree = "<group>";
+		};
+		D2A37DD620AFC06B00E21CAB /* FlightSketchMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A37DD720AFC06B00E21CAB /* FlightSketchMobileUITests.swift */,
+				D2A37DD920AFC06B00E21CAB /* Info.plist */,
+			);
+			path = FlightSketchMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A37DB320AFC06500E21CAB /* FlightSketchMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A37DDC20AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobile" */;
+			buildPhases = (
+				D2A37DB020AFC06500E21CAB /* Sources */,
+				D2A37DB120AFC06500E21CAB /* Frameworks */,
+				D2A37DB220AFC06500E21CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightSketchMobile;
+			productName = FlightSketchMobile;
+			productReference = D2A37DB420AFC06500E21CAB /* FlightSketchMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A37DC720AFC06A00E21CAB /* FlightSketchMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A37DDF20AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobileTests" */;
+			buildPhases = (
+				D2A37DC420AFC06A00E21CAB /* Sources */,
+				D2A37DC520AFC06A00E21CAB /* Frameworks */,
+				D2A37DC620AFC06A00E21CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A37DCA20AFC06A00E21CAB /* PBXTargetDependency */,
+			);
+			name = FlightSketchMobileTests;
+			productName = FlightSketchMobileTests;
+			productReference = D2A37DC820AFC06A00E21CAB /* FlightSketchMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A37DD220AFC06B00E21CAB /* FlightSketchMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A37DE220AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobileUITests" */;
+			buildPhases = (
+				D2A37DCF20AFC06B00E21CAB /* Sources */,
+				D2A37DD020AFC06B00E21CAB /* Frameworks */,
+				D2A37DD120AFC06B00E21CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A37DD520AFC06B00E21CAB /* PBXTargetDependency */,
+			);
+			name = FlightSketchMobileUITests;
+			productName = FlightSketchMobileUITests;
+			productReference = D2A37DD320AFC06B00E21CAB /* FlightSketchMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A37DAC20AFC06500E21CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Russell P. Parrish";
+				TargetAttributes = {
+					D2A37DB320AFC06500E21CAB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D2A37DC720AFC06A00E21CAB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D2A37DB320AFC06500E21CAB;
+					};
+					D2A37DD220AFC06B00E21CAB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D2A37DB320AFC06500E21CAB;
+					};
+				};
+			};
+			buildConfigurationList = D2A37DAF20AFC06500E21CAB /* Build configuration list for PBXProject "FlightSketchMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A37DAB20AFC06500E21CAB;
+			productRefGroup = D2A37DB520AFC06500E21CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A37DB320AFC06500E21CAB /* FlightSketchMobile */,
+				D2A37DC720AFC06A00E21CAB /* FlightSketchMobileTests */,
+				D2A37DD220AFC06B00E21CAB /* FlightSketchMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A37DB220AFC06500E21CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A37DC220AFC06A00E21CAB /* LaunchScreen.storyboard in Resources */,
+				D2A37DBF20AFC06A00E21CAB /* Assets.xcassets in Resources */,
+				D2A37DBD20AFC06600E21CAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DC620AFC06A00E21CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DD120AFC06B00E21CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A37DB020AFC06500E21CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A37DBA20AFC06600E21CAB /* ViewController.swift in Sources */,
+				D2A37DB820AFC06600E21CAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DC420AFC06A00E21CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A37DCD20AFC06A00E21CAB /* FlightSketchMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A37DCF20AFC06B00E21CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A37DD820AFC06B00E21CAB /* FlightSketchMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A37DCA20AFC06A00E21CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A37DB320AFC06500E21CAB /* FlightSketchMobile */;
+			targetProxy = D2A37DC920AFC06A00E21CAB /* PBXContainerItemProxy */;
+		};
+		D2A37DD520AFC06B00E21CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A37DB320AFC06500E21CAB /* FlightSketchMobile */;
+			targetProxy = D2A37DD420AFC06B00E21CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A37DBB20AFC06600E21CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A37DBC20AFC06600E21CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A37DC020AFC06A00E21CAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A37DC120AFC06A00E21CAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A37DDA20AFC06B00E21CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A37DDB20AFC06B00E21CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A37DDD20AFC06B00E21CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A37DDE20AFC06B00E21CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A37DE020AFC06B00E21CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSketchMobile.app/FlightSketchMobile";
+			};
+			name = Debug;
+		};
+		D2A37DE120AFC06B00E21CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSketchMobile.app/FlightSketchMobile";
+			};
+			name = Release;
+		};
+		D2A37DE320AFC06B00E21CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSketchMobile;
+			};
+			name = Debug;
+		};
+		D2A37DE420AFC06B00E21CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43368L4SPQ;
+				INFOPLIST_FILE = FlightSketchMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FlightSketch.FlightSketchMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightSketchMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A37DAF20AFC06500E21CAB /* Build configuration list for PBXProject "FlightSketchMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A37DDA20AFC06B00E21CAB /* Debug */,
+				D2A37DDB20AFC06B00E21CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A37DDC20AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A37DDD20AFC06B00E21CAB /* Debug */,
+				D2A37DDE20AFC06B00E21CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A37DDF20AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A37DE020AFC06B00E21CAB /* Debug */,
+				D2A37DE120AFC06B00E21CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A37DE220AFC06B00E21CAB /* Build configuration list for PBXNativeTarget "FlightSketchMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A37DE320AFC06B00E21CAB /* Debug */,
+				D2A37DE420AFC06B00E21CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A37DAC20AFC06500E21CAB /* Project object */;
+}
