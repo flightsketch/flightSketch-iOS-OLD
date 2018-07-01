@@ -75,6 +75,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func parseData(byte: Data) {
         print("data rx...")
+        var values = [UInt8](repeating:0, count:byte.count)
+        byte.copyBytes(to: &values, count: byte.count)
+        for byte in values {
+        print(byte)
+        }
+        
+        
     }
     
     
@@ -123,6 +130,7 @@ extension ViewController: CBCentralManagerDelegate {
 
 extension ViewController: CBPeripheralDelegate {
     func peripheral(_ peripheral: CBPeripheral, didReadRSSI RSSI: NSNumber, error: Error?) {
+        print("-----------------------------------------")
         print(RSSI)
         lbRSSI.text = RSSI.stringValue
     }
@@ -158,13 +166,12 @@ extension ViewController: CBPeripheralDelegate {
         }
     }
     
-    func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic,
-                    error: Error?) {
+    func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
         switch characteristic.uuid {
             
         default:
             //print("Unhandled Characteristic UUID: \(characteristic.uuid)")
-            readData(from: characteristic)
+            self.readData(from: characteristic)
         }
     }
     
